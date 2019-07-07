@@ -1,0 +1,62 @@
+body{
+    background: cadetblue;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+
+    }
+a{
+    color:black;
+}
+    ul{
+        color: cadetblue;
+    }
+t{
+    margin: 0;
+    padding: 0;
+}
+
+
+.search-bar {
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 344px;
+    height: 48px;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+}
+
+input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 40px;
+    left: 172px;
+    margin: 4px 0;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul#wrapper {
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+li {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+    
+    
